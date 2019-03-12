@@ -1,0 +1,65 @@
+html{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#headerbar{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: auto;
+    align-items: center;
+}
+#name{
+    background-color:#4aaaa5;
+    color: #ffffff;
+    padding: 2.5px;
+    text-align: center;
+    width: 380px;
+}
+#choices{
+    color: #777777;
+}
+a{
+    color: #777777;
+    text-decoration: none;
+}
+#placeholder{
+    width: 300px;
+}
+#page{
+    background-image: url(../images/mochaGrunge_@2X.png);
+    padding-top: 1px;
+    height: 500px;
+}
+.notecard{
+    background-color: #ffffff;
+    color: #777777;
+    width: 960px;
+    margin: auto;
+    margin-top: 30px;
+    height: 75%;
+}
+.secondary{
+    color:#4aaaa5;
+    margin: 10px;
+}
+.headshot{
+    float: left;
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+footer{
+    clear: both;
+    background-color: #777777;
+    color: #ffffff;
+    padding-top: 5px;
+    text-align: center;
+    border-top: solid;
+    border-top-color:#4aaaa5;
+    border-top-width: 5px;
+}
