@@ -3,6 +3,7 @@ html{
 }
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
 }
 #headerbar{
     background-color: #ffffff;
@@ -62,4 +63,10 @@ footer{
     border-top: solid;
     border-top-color:#4aaaa5;
     border-top-width: 5px;
+}
+.form{
+    margin: 10px;
+}
+input{
+    width: 95%;
 }
