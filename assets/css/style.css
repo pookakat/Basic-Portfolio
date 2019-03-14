@@ -16,9 +16,11 @@ h1{
 .name{
     background-color:#4aaaa5;
     color: #ffffff;
-    padding: 2.5px;
+    vertical-align: center;
+    padding: 2.5px 2.5px 10 0;
     text-align: center;
     width: 380px;
+    height: 60px;
 }
 #choices{
     color: #777777;
@@ -68,5 +70,8 @@ footer{
     margin: 10px;
 }
 input{
+    width: 95%;
+}
+textarea{
     width: 95%;
 }
