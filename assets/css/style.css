@@ -5,6 +5,10 @@ h1{
     font-family: Georgia, Times, 'Times New Roman', serif; 
     font-size: 32px;
 }
+h2{
+    font-family: Georgia, Times, 'Times New Roman', serif; 
+    font-size: 32px;
+}
 .headerbar{
     background-color: #ffffff;
     display: flex;
@@ -79,13 +83,11 @@ textarea{
 .container{
     display: flex;
     flex-direction: row;
-} 
-
-.columns{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 33%;
+}
+.projects{
+    list-style: none;
+    width: 200px;
+    margin: 10px;
 }
 
 .longer{
@@ -96,6 +98,7 @@ textarea{
     height: 200px;
     width: 200px;
 }
+
 img{
     max-height: 100%;
     max-width: 100%;
