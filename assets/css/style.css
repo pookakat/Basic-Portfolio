@@ -13,9 +13,6 @@ h1{
     margin: auto;
     align-items: center;
 }
-.textCenter{
-    text-align: right;
-}
 .name{
     background-color:#4aaaa5;
     color: #ffffff;
@@ -35,7 +32,7 @@ a{
 #placeholder{
     width: 300px;
 }
-#page{
+.page{
     background-image: url(../images/mochaGrunge_@2X.png);
     padding-top: 1px;
     height: 500px;
@@ -63,11 +60,12 @@ footer{
     clear: both;
     background-color: #777777;
     color: #ffffff;
+    height: 20px;
     padding-top: 5px;
     text-align: center;
     border-top: solid;
     border-top-color:#4aaaa5;
-    border-top-width: 5px;
+    border-top-width: 8px;
 }
 .form{
     margin: 10px;
@@ -77,4 +75,37 @@ input{
 }
 textarea{
     width: 95%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+} 
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33%;
+}
+
+.longer{
+    height: 1000px;
+}
+.picture{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+    position: relative;
+    top: -50px;
 }
