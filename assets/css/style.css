@@ -9,6 +9,9 @@ h2{
     font-family: Georgia, Times, 'Times New Roman', serif; 
     font-size: 32px;
 }
+.content{
+    flex: 1 0 auto;
+}
 .headerbar{
     background-color: #ffffff;
     display: flex;
@@ -70,6 +73,7 @@ footer{
     border-top: solid;
     border-top-color:#4aaaa5;
     border-top-width: 8px;
+    flex-shrink: 0;
 }
 .form{
     margin: 10px;
