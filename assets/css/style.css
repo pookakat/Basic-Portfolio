@@ -165,4 +165,8 @@ h2{
 .longer{
     height: 1230px;
 }
+.picture{
+    padding: 10px;
+    margin: auto;
+}
 }
