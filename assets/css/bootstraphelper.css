@@ -22,6 +22,12 @@
 .tealbdr{
     border-top: 10px solid #4aaaa5;
 }
+.padadjust{
+    padding: 0px;
+}
+.widthadjust{
+    width: 400px;
+}
 .bdradjust{
     border:-20px;
 }
