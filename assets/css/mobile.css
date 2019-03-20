@@ -23,6 +23,16 @@ h2{
     width: 50%;
     margin: auto;
 }
+.short{
+    padding-bottom: 30px;
+}
 .longer{
     height: 1230px;
+}
+input{
+    padding:5px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-top: 11px;
 }

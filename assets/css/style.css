@@ -174,4 +174,11 @@ h2{
     padding: 10px;
     margin: auto;
 }
+input{
+    padding:5px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-top: 11px;
+}
 }
