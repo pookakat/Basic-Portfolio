@@ -80,11 +80,10 @@ p{
 .form{
     margin: 10px;
 }
-input{
+input, textarea{
     width: 95%;
-}
-textarea{
-    width: 95%;
+    border: 1px solid #222;
+    margin-bottom: 10px;
 }
 .submission{
     background-color: #4aaaa5;
@@ -173,12 +172,5 @@ h2{
 .picture{
     padding: 10px;
     margin: auto;
-}
-input{
-    padding:5px;
-    margin-bottom: 10px;
-}
-textarea{
-    margin-top: 13px;
 }
 }
