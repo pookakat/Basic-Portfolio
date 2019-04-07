@@ -121,6 +121,11 @@ img{
     max-height: 100%;
     max-width: 100%;
 }
+
+.warsimg{
+    min-height: 180px;
+}
+
 .button{
     background-color: #4aaaa5;
     color: #ffffff;
