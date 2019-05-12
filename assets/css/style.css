@@ -131,13 +131,18 @@ input, textarea{
 }
 .blk-background{
     background-color: black;
+}
+.vert-special{
     position: relative;
 }
 .bottom{
     position: absolute;
-    bottom: 0;
+    bottom: 25%;
 }
-
+.vert-center{
+    position: absolute;
+    bottom: 10%;
+}
 img{
     max-height: 100%;
     max-width: 100%;
