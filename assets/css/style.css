@@ -10,6 +10,10 @@ h2{
     font-family: Georgia, Times, 'Times New Roman', serif; 
     font-size: 32px;
 }
+p::first-letter{
+    font-size: 22px;
+    color: #4aaaa5;
+}
 .content{
     flex: 1 0 auto;
 }
